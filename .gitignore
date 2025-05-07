@@ -1,0 +1,72 @@
+# ========================
+# VISUAL STUDIO / .NET
+# ========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+# Rider
+.idea/
+*.sln.iml
+
+# ASP.NET user secrets
+**/secrets.json
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+project.assets.json
+project.nuget.cache
+*.db
+*.db-shm
+*.db-wal
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragejson
+*.testsettings
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Web stuff
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Dotnet watch
+**/obj/**/*.csproj.CopyComplete
+
+# Local secrets or tokens
+.env
+.env.*
+appsettings.*.json
